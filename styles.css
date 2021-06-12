@@ -125,13 +125,18 @@ body {
 .project-node a {
     margin: 1rem 0;
     padding: .7rem 1rem;
-    width: 50%;
+    width: 65%;
     border-radius: .5rem;
+    text-align: center;
 
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+
+.project-node a i {
+    padding-left: 1rem;
 }
 
 .project-demo {

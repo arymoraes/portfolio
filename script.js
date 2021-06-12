@@ -11,15 +11,23 @@ const projects = [
         "title": "Bloodworks",
         "description": "Bloodworks is a medical app that takes in medical information such as blood exams, measurements (such as BMI and Blood Pressure) and displays them to a medical provider utilizing data visualization. Built using React, Redux and D3.js on the front-end and PostgreSQL, Node.js and TypeORM on the backend. This was a group project and I was responsible for building the back-end part of the project, as well as some part of the front-end such as Redux and API integration.",
         "image": "test url",
-        "tags": ['HTML', 'CSS', 'React', 'Redux', 'Node.js', 'PostgreSQL', 'TypeORM'],
+        "tags": ['HTML', 'CSS', 'React', 'Redux', 'Node.js', 'PostgreSQL', 'TypeORM', 'Docker'],
         "demo": "test",
         "source": "source"
     },
     {
         "title": "Unnamed Gaming App",
-        "description": "Proin viverra, neque ut ultrices finibus, sapien sapien vehicula erat, ut imperdiet libero ex a urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec elementum pellentesque velit, non facilisis eros rhoncus commodo. In suscipit massa enim, nec efficitur justo rhoncus et. Ut iaculis, est vitae consequat porta, augue elit aliquet nulla, vitae mattis arcu orci et sapien.",
+        "description": "Current project I am building, consists of an app that allows you to create your gaming profile and search people with similar gaming interests (such as games, gaming styles (competitive vs coop vs MMORPGs), timezones, etc) to play together. Planned stack includes PostgreSQL, TypeORM, Node.JS and Express on the back-end, with React, Redux and SCSS on the front-end. Will include Docker, AWS and also Jest for testing.",
         "image": "test url",
-        "tags": [],
+        "tags": ['HTML', 'SCSS', 'React', 'Redux', 'Node.js', 'PostgreSQL', 'TypeORM', 'Docker', 'Jest'],
+        "demo": "test",
+        "source": "source"
+    },
+    {
+        "title": "Trello Clone",
+        "description": "Simple Trello clone done for a skill accessment. UI is simple as it was made focused on functionalities. Built using PHP, Laravel and PostgreSQL on the back-end and Vue.js, SCSS (with BEM) on the front-end.",
+        "image": "test url",
+        "tags": ['HTML', 'SCSS', 'Vue', 'Laravel', 'PHP', 'PostgreSQL'],
         "demo": "test",
         "source": "source"
     }
@@ -64,6 +72,12 @@ const renderContent = () => {
         projectSource.classList.add('project-source');
         projectSource.href = project.source;
         projectSource.innerHTML = 'View Source';
+
+        const gitHubIcon = document.createElement('i');
+        gitHubIcon.classList.add('fab');
+        gitHubIcon.classList.add('fa-github');
+        projectSource.append(gitHubIcon);
+
         newProject.appendChild(projectSource);
 
         projectNode.appendChild(newProject);
