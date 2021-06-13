@@ -30,7 +30,15 @@ const projects = [
         "tags": ['HTML', 'SCSS', 'Vue', 'Laravel', 'PHP', 'PostgreSQL'],
         "demo": "https://wizardly-archimedes-3d2797.netlify.app/",
         "source": "https://github.com/Fallenefc/assessment-client"
-    }
+    },
+    {
+        "title": "Angular Pokemon App",
+        "description": "Simple Pokemon App that allows user to search for a pokemon using PokeAPI. Not responsive as it was built in early stages of my learning. Built using Angular and PokeAPI.",
+        "image": "pokemon.png",
+        "tags": ['HTML', 'CSS', 'Angular'],
+        "demo": "https://pokemon.arylima.ca",
+        "source": "https://github.com/Fallenefc/angular-poke-app"
+    },
 ]
 
 const projectNode = document.querySelector('.projects');
