@@ -10,7 +10,7 @@ const projects = [
     {
         "title": "Bloodworks",
         "description": "Bloodworks is a medical app that takes in medical information such as blood exams, measurements (such as BMI and Blood Pressure) and displays them to a medical provider utilizing data visualization. Built using React, Redux and D3.js on the front-end and PostgreSQL, Node.js and TypeORM on the backend. This was a group project and I was responsible for building the back-end part of the project, as well as some part of the front-end such as Redux and API integration.",
-        "image": "test url",
+        "image": "react.png",
         "tags": ['HTML', 'CSS', 'TypeScript', 'React', 'Redux', 'Node.js', 'PostgreSQL', 'TypeORM', 'Docker'],
         "demo": "",
         "source": "https://github.com/Fallenefc/medicalapp-server"
@@ -18,7 +18,7 @@ const projects = [
     {
         "title": "Unnamed Gaming App",
         "description": "Current project I am building, consists of an app that allows you to create your gaming profile and search people with similar gaming interests (such as games, gaming styles (competitive vs coop vs MMORPGs), timezones, etc) to play together. Planned stack includes PostgreSQL, TypeORM, Node.JS and Express on the back-end, with React, Redux and SCSS on the front-end. Will include Docker, AWS and also Jest for testing.",
-        "image": "test url",
+        "image": "react.png",
         "tags": ['HTML', 'SCSS', 'TypeScript', 'React', 'Redux', 'Node.js', 'PostgreSQL', 'TypeORM', 'Docker', 'Jest'],
         "demo": "",
         "source": "https://github.com/Fallenefc/gaming-server"
@@ -46,6 +46,8 @@ const renderContent = () => {
         imgDiv.classList.add('project-img');
         imgDiv.style.background = `url(${project.image})`;
         imgDiv.style.backgroundPosition = 'center';
+        imgDiv.style.backgroundSize = '100%';
+        imgDiv.style.backgroundRepeat = 'no-repeat';
         newProject.appendChild(imgDiv);
 
         const textDiv = document.createElement('div');
