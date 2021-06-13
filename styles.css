@@ -358,4 +358,8 @@ a {
         font-size: 5rem;
         border-right: 2rem solid;
     }
+
+    .wrapper span {
+        font-size: 5rem;
+    }
 }
