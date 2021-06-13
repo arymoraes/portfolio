@@ -4,7 +4,7 @@ const projects = [
         "description": "My first big project with React, initially named Boota is a quiz application in which teachers have their question bank and can create quizzes for students to take. It was built using React on the front-end and Node + MongoDB on the back-end. Later refactored so it became fully responsive and also renamed to Quizilla",
         "image": "quizilla.png",
         "tags": ['HTML', 'CSS', 'TypeScript', 'React', 'Redux', 'Node.js', 'MongoDB'],
-        "demo": "https://reverent-knuth-ec436c.netlify.app/",
+        "demo": "https://quizilla.arylima.ca",
         "source": "https://github.com/Fallenefc/boota-client"
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         "description": "Simple Trello clone done for a skill accessment. UI is simple as it was made focused on functionalities. Built in two days using PHP, Laravel and PostgreSQL on the back-end and Vue.js, SCSS (with BEM) on the front-end.",
         "image": "trello.png",
         "tags": ['HTML', 'SCSS', 'Vue', 'Laravel', 'PHP', 'PostgreSQL'],
-        "demo": "https://wizardly-archimedes-3d2797.netlify.app/",
+        "demo": "https://trelloclone.arylima.ca",
         "source": "https://github.com/Fallenefc/assessment-client"
     },
     {
@@ -36,7 +36,7 @@ const projects = [
         "description": "Frontend Mentor challenge to build a small application using the countries API. Built with pair programming, using React.",
         "image": "countries.jpg",
         "tags": ['HTML', 'CSS', 'React'],
-        "demo": "https://countries.arylima.ca/",
+        "demo": "https://countries.arylima.ca",
         "source": "https://github.com/Fallenefc/countries"
     },
     {
