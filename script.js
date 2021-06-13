@@ -32,6 +32,14 @@ const projects = [
         "source": "https://github.com/Fallenefc/assessment-client"
     },
     {
+        "title": "Countries App",
+        "description": "Frontend Mentor challenge to build a small application using the countries API. Built with pair programming, using React.",
+        "image": "countries.jpg",
+        "tags": ['HTML', 'CSS', 'React'],
+        "demo": "https://countries.arylima.ca/",
+        "source": "https://github.com/Fallenefc/countries"
+    },
+    {
         "title": "Angular Pokemon App",
         "description": "Simple Pokemon App that allows user to search for a pokemon using PokeAPI. Not responsive as it was built in early stages of my learning. Built using Angular and PokeAPI.",
         "image": "pokemon.png",
