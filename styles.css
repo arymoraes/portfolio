@@ -150,3 +150,88 @@ body {
     background-color: purple;
     color: white;
 }
+
+.about-container {
+    background-color: rgb(163, 163, 163);
+    padding: 1rem;
+}
+
+.about-header {
+    height: 2rem;
+    background-color: #e4e3e5;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-button {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin-left: .7rem;
+}
+
+.red {
+    background-color: #f96256;
+    border: 1px solid #f65549;
+}
+
+.yellow {
+    background-color: #fdbc3d;
+    border: 1px solid #ffb524;
+}
+
+.green {
+    background-color: #33c948;
+    border: 1px solid #2dbb41;
+}
+
+.about-body {
+    background-color: black;
+    border-radius: 0 0 .4rem .4rem;
+    padding: 2rem;
+    box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+    /* remove this in the future, its just for preview */
+
+    font-family: 'Inconsolata', monospace;
+}
+
+.statement {
+    line-height: 2rem;
+}
+
+.input-statement {
+    color: #f7f7f7;
+}
+
+.return-statement {
+    color: #e7d184;
+}
+
+.keyword {
+    color: rgb(46, 46, 179);
+}
+
+.variable {
+    color: rgb(70, 70, 248);
+}
+
+.white {
+    color: white;
+}
+
+.bracket {
+    color: yellow;
+}
+
+.property {
+    color: rgb(124, 186, 236);
+}
+
+.array-bracket {
+    color: rgb(223, 61, 61);
+}
+.return-statement {
+    padding-left: 1rem;
+}

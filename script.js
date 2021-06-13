@@ -37,6 +37,7 @@ const projectNode = document.querySelector('.projects');
 
 const renderContent = () => {
 
+    // Project rendering
     projects.forEach((project) => {
         const newProject = document.createElement('div');
         newProject.classList.add('project-node')
