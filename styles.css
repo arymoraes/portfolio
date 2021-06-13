@@ -267,4 +267,50 @@ body {
 a {
     text-decoration: none;
     color: unset;
+}  
+
+.project-img {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .navbar ul {
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        padding: 0 5rem;
+    }
+
+    .description {
+        padding: 5rem 25vw;
+        text-align: center;
+    }
+
+    .about-container {
+        padding: 5rem 30vw;
+    }
+
+    .projects {
+        padding: 5rem 15vw;
+    }
+
+    .project-node {
+        flex-direction: row;
+    }
+
+    .project-img {
+        display: block;
+        width: 40%;
+        background-color: red;
+    }
+
+    .project-text {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
 }
