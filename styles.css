@@ -18,6 +18,7 @@ body {
     width: 100vw;
     height: 10vh;
     background-color: rgb(30, 7, 59);
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -35,10 +36,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #f6f9fc;
+    color: rgb(70, 70, 248);
 }
 
 .name-animation {
-    width: 11ch;
+    width: 8.7ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -63,7 +66,7 @@ body {
 }
 
 .description {
-    background-color: rgb(219, 255, 247);
+    background-color: #f6f9fc;
     padding: 3rem 1rem;
     font-size: 1.1rem;
     text-align: center;
@@ -84,7 +87,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #c8dcf0;
+    background-color: #f6f9fc;
 }
 
 .project-node {
@@ -144,18 +147,37 @@ body {
 
 .project-demo {
     background-color: white;
-    -webkit-box-shadow: 0px 0px 3px 2px rgba(126,52,130,0.9); 
-    box-shadow: 0px 0px 3px 2px rgba(126,52,130,0.9);
+    border: 2px solid purple;
     color: purple;
 }
 
 .project-source {
     background-color: purple;
+    border: 2px solid purple;
     color: white;
 }
 
+.project-demo:hover {
+    color: white;
+    background-color: purple;
+    transition: 0.5s ease;
+}
+
+.disabled {
+    color: black !important;
+    background-color: rgb(194, 194, 194) !important;
+    border: 2px solid black;
+    cursor: not-allowed;
+}
+
+.project-source:hover {
+    color: purple;
+    background-color: white;
+    transition: 0.5s ease;
+}
+
 .about-container {
-    background-color: rgb(252, 200, 200);
+    background-color: #f6f9fc;
     padding: 1rem;
 }
 
@@ -240,12 +262,19 @@ body {
 }
 
 .contact {
-    background-color: rgb(230, 230, 230);
+    background-color: #e2eaf1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding-top: 2rem;
+}
+
+.copyright {
+    padding: .6rem 0;
+    background-color: #c3d6e7;
+    width: 100%;
+    text-align: center;
 }
 
 .contact i {
@@ -255,7 +284,7 @@ body {
 }
 
 .contact-title {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 2rem;
     font-weight: 600;
 }
@@ -264,10 +293,17 @@ body {
     padding-left: .5rem;
 }
 
+.navbar ul a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
 a {
     text-decoration: none;
     color: unset;
-}  
+}
 
 .project-img {
     display: none;
@@ -311,5 +347,15 @@ a {
         justify-content: center;
         align-items: center;
         padding: 3rem;
+    }
+
+    .navbar ul a:hover {
+        background-color: rgb(143, 18, 143);
+        transition: 0.5s ease;
+    }
+
+    .name-animation {
+        font-size: 5rem;
+        border-right: 2rem solid;
     }
 }

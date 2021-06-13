@@ -25,8 +25,8 @@ const projects = [
     },
     {
         "title": "Trello Clone",
-        "description": "Simple Trello clone done for a skill accessment. UI is simple as it was made focused on functionalities. Built using PHP, Laravel and PostgreSQL on the back-end and Vue.js, SCSS (with BEM) on the front-end.",
-        "image": "test url",
+        "description": "Simple Trello clone done for a skill accessment. UI is simple as it was made focused on functionalities. Built in two days using PHP, Laravel and PostgreSQL on the back-end and Vue.js, SCSS (with BEM) on the front-end.",
+        "image": "trello.png",
         "tags": ['HTML', 'SCSS', 'Vue', 'Laravel', 'PHP', 'PostgreSQL'],
         "demo": "https://wizardly-archimedes-3d2797.netlify.app/",
         "source": "https://github.com/Fallenefc/assessment-client"
